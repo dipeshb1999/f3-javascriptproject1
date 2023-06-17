@@ -1,0 +1,62 @@
+*{
+    color: white;
+    background-color: black;
+}
+#input{
+    display: flex;
+    gap: 10px;
+}
+#input div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 3px;
+}
+.add{
+    background-color: #fff;
+    color: black;
+}
+#top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid gray;
+    width: 400px;
+    border-radius: 10px;
+    height: 30px;
+}
+.delete{
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
+    height: 25px;
+    padding: auto;
+}
+.card-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#buttom{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 2px;
+}
+.error{
+    color: red;
+}
+.sucess{
+    color: green;
+}
